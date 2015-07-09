@@ -10,7 +10,16 @@
     <script src="./lib/keymaster.js"></script>
   </head>
   <body>
-    <canvas id="game-canvas" class="game" width="500" height="500"></canvas>
+    <div class="game">
+      <h1>
+        <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a>
+      </h1>
+      <canvas id="game-canvas" width="500" height="500"></canvas>
+    </div>
+    <footer class="footer">
+      <a href="www.jmgarza.info">By Jose Garza</a>
+      <a href="www.github.com/minutetominute/ConwaysGameOfLife">Source Code</a>
+    </footer>
     <script type="text/javascript">
       var gameViewCanvas = document.getElementById("game-canvas");
       var gameViewCtx = gameViewCanvas.getContext("2d");

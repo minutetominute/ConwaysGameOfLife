@@ -1,3 +1,27 @@
+h1 {
+    font-family: sans-serif;
+}
+
 .game {
-  border: 1px solid black;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+#game-canvas {
+  border: 5px solid black;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.footer a {
+  float: left;
+  display: block;
+  margin: 20px 20px 20px 0;
 }
