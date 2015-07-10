@@ -4,13 +4,13 @@ Javascript/HTML5 implementation of Conway's Game of Life
 
 [See it live!](http://www.jmgarza.info/conwaysgameoflife)
 
-#Origin
+##Origin
 
 Conway's game of life is a zero-player game devised by British mathematician John Horton Conway.
 
 [Check out the wiki page!](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
-#Rules
+##Rules
 
 1. Any live cell with fewer than two live neighbours dies, as if caused by under-population.
 2. Any live cell with two or three live neighbours lives on to the next generation.
