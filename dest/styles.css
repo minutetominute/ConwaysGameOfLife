@@ -1,0 +1,46 @@
+h1 {
+    font-family: sans-serif;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.game h1 {
+  text-align: center;
+}
+
+.game, #game-canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+
+#game-canvas {
+  border: 5px solid black;
+}
+
+.canvas-container {
+  position: relative;
+  height: 500px;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.footer a {
+  float: left;
+  display: block;
+  margin: 20px 20px 20px 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

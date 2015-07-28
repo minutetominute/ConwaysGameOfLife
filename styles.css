@@ -14,7 +14,7 @@ li {
   text-align: center;
 }
 
-.game {
+.game, #game-canvas {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -23,6 +23,11 @@ li {
 
 #game-canvas {
   border: 5px solid black;
+}
+
+.canvas-container {
+  position: relative;
+  height: 500px;
 }
 
 .footer {
